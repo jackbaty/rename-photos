@@ -1,4 +1,3 @@
 #/bin/sh
 
-cd ~/Pictures/_Inbox/
 exiftool '-FileName<${CreateDate}_$Description.jpg' -d %Y%m%d -ext jpg .
